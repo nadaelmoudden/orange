@@ -1,0 +1,420 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: black;
+
+}
+hr{
+    opacity: 0.3;
+}
+
+#top_header ul{
+    display: flex;
+    margin-left: 150px;
+    width: 500px; 
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+#top_header{
+    background-color: black;
+}
+#bottom_header{
+    position: sticky;
+    top: 0px;
+    background-color: black;
+}
+#bottom_header ul{
+    display: flex;
+    margin-left: 150px;
+    padding: 20px;
+    width: 700px;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+
+ul li a {
+    list-style-type: none;
+    width: 500px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a:hover{
+    text-decoration: underline;
+    color: orangered;
+
+}
+ #main h1{
+    padding: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    margin-left: 140px;
+}
+#main2{
+    margin-left: 130px;
+   
+}
+
+#main2 a{
+    color: black;
+    margin-left: 90px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#container{
+display: flex;
+ width: 75%;
+ margin: 0 auto;
+}
+#container h3 {
+    color: rgb(253, 82, 19);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 37px;
+    margin-left: 30px;
+    margin-top: 12px;
+    
+}
+#container p{
+    margin-left: 40px;
+    color: white;
+  
+
+}
+#container button{
+    background-color: rgb(253, 82, 19);
+    color: white;
+    padding: 10px;
+    width: 120px;
+    border: none;
+    margin-left: 40px;
+}
+
+.img1{
+    margin-top: 20px;
+   width: 55%;
+   height: 69vh;
+   background-color: black;
+}
+.img1 img{
+   height: 45vh;
+}
+.img2 img{
+    width: 88%;
+    height: 35vh;
+}
+.img2 {
+    margin: 20px;
+}
+
+
+
+.backright{
+    color: white;
+    height: 200px;
+    width: 83%;
+    padding: 10px;
+    background-color: black;
+}
+.backright h2{
+    padding: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    width: 55%;
+}
+.backright p{
+    margin-left: 5px;
+}
+
+.backright button {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+
+}
+.backright button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.backright a{
+    color: white;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+}
+.backright a:hover{
+    color: orangered;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+.bonsplans a{
+    margin-left: 35px;
+    list-style-type: none;
+    width: 700px;
+    color: orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.phones{
+    width: 80%;
+    margin-top: 50px;
+    display: flex;
+}
+.phones img{
+    margin-left: 80px;
+}
+
+
+#container2{
+    margin: 0 auto;
+    width: 75%;
+}
+h4{
+    margin-left: 80px;
+    margin-top: 20px;
+    width: 77%;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 27px;
+    text-transform: capitalize;
+   
+}
+h4:hover{
+    color: orangered;
+    cursor: pointer;
+}
+#nouveau{
+    width: 84%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#nouveau h5{
+    padding: 8px;
+    width: 72px;
+    text-align: center;
+    background-color: #50be87;
+    margin-top: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.nouveau1 {
+    margin-left: 77px;
+}
+ol{
+   margin-top: 10px;
+}
+ol li {
+    line-height: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: square;
+}
+
+.price{
+    width: 100%;
+    font-size: 27px;
+    color: orangered;
+}
+#prix{
+    margin-left: 50px;
+    width: 800px;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 80px;
+   
+
+}
+#prix button{
+    background-color: black;
+    color: white;
+    padding: 12px;
+    width: 100px;
+    font-size: 17px;
+    text-align: center;
+    margin-left: 10px;
+}
+#container3{
+   margin: 0 auto;
+    width: 70%;
+
+
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    margin-top: 20px;
+    
+}
+.tv{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.tv1{
+    margin: 0 22px;
+    background-color: black;
+    height: 50vh;
+}
+h6{
+    margin-left: 10px;
+    
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+b{
+    font-weight: bold;
+    color: rgb(241, 82, 24);
+    font-size: 38px;
+    margin-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tv1 button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 90px;
+    margin: 30px;
+    margin-left: 30px;
+    border: 2px solid white;
+
+}
+#container4{
+    margin: 0 auto;
+    width: 70%;
+
+}
+.games{
+    display: flex;
+    margin-top: 20px;
+    width: 685px;
+}
+.gameloft{
+    background-color: black;
+    margin: 0 22px;
+    height: 52vh;
+
+}
+
+.gameloft h5{
+    text-transform: capitalize;
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+}
+.gameloft p{
+
+    color: white;
+    width: 280px;
+    padding-left: 10px;
+}
+.gameloft button{
+    background-color: black;
+    color: white;
+    padding: 12px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 92px;
+    border: 2px solid white;
+
+}
+
+#container5{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.cadeaux{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 685px;
+    justify-content: space-between;
+}
+.cadeaux p{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+#container6{
+    display: flex;
+}
+.orange-et-moi{
+    background-color: black;
+    width: 100%;
+    float: left;
+}
+.orange-et-moi img{
+    float: right;
+}
+.orange-et-moi h2{
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 32px;
+padding-left: 255px;
+padding-top: 26px;
+}
+.orange-et-moi ul li{
+    list-style-type: square;
+    padding-left: 255px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding-top: 5px;
+    color: white;
+   
+}
+.orange-et-moi ul{
+    padding-top: 24px;
+}
+/* .télécharger button{
+    background-color: black;
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    width: 100px;
+    border: 2px solid white;
+} */
+footer ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    width: 75%;
+    padding-top: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    footer{
+        padding-left: 150px;
+        height: 70px;
+        background-color: yellow;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+
+        }
+
+
